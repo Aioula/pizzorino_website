@@ -1,0 +1,39 @@
+header{
+    background-color: rgba(255, 166, 0, 0.438);
+}
+.image{
+    width: 5%;
+    height: 5%;
+    background-color: rgba(255, 166, 0, 0.438);
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+  }
+li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+section img{
+    width: 400px;
+    height: auto;
+}
+footer{
+    background-color: rgba(255, 166, 0, 0.438);
+    height: 200px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+}
