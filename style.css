@@ -1,10 +1,11 @@
 header{
+    display: inline-block;
     background-color: rgba(255, 166, 0, 0.438);
+    width: 100%;
 }
 .image{
-    width: 5%;
-    height: 5%;
-    background-color: rgba(255, 166, 0, 0.438);
+    width: 150px;
+    height: auto;
 
 }
 
@@ -12,28 +13,52 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
 li {
-    float: left;
+    float: right;
   }
 li {
     display: block;
-    color: white;
+    color: darkcyan;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Montserrat;
   }
+  ul li:hover{
+    background-color:rgba(255, 191, 0, 0.847) ;
+}  
+.first{
+    background-color: blanchedalmond;
+    text-align:center ;
+padding-top: 20px;}
 section img{
     width: 400px;
-    height: auto;
+    height: 400px;
+    padding: 30px;
+}
+.second{
+    background-color: rgb(212, 121, 8);
+    text-align:center ;
+padding-top: 20px;
+}
+.third{
+    background-color: rgba(188, 212, 8, 0.792);
+    text-align:center ;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 footer{
     background-color: rgba(255, 166, 0, 0.438);
     height: 200px;
+    display: inline-block;
 }
 footer img{
     width: 100px;
     height: 100px;
+}
+.foo{
+    float: right;
 }
